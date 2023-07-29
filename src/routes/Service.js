@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import SER from "../assets/service.jpg";
-import Destination from "../components/Destination";
+import Offer from "../components/WhatweOffer";
 function Service() {
   return (
     <>
@@ -15,7 +15,7 @@ function Service() {
     url = "/"
     btnClass="hide"
     />
-    <Destination/>
+    <Offer/>
     <Footer/>
     
     </>

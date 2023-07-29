@@ -26,20 +26,20 @@ const Footer = () => {
         <div>
           <h4>Services</h4>
           <a href= "/"> Schedule an Appointment</a>
-          <a href= "/"> Outpatient Clinic</a>
-          <a href= "/"> Pharmacy</a>
+          <a href= "/service"> Outpatient Clinic</a>
+          <a href= "/service"> Pharmacy</a>
         </div>
         <div>
           <h4>Company</h4>
-          <a href= "/"> About</a>
-          <a href= "/"> Careers</a>
-          <a href= "/"> Blog</a>
+          <a href= "/about"> About</a>
+          <a href= "/about"> Careers</a>
+          <a href= "/about"> Blog</a>
         </div>
         <div>
           <h4>Support</h4>
-          <a href= "/"> Chat Support</a>
-          <a href= "/"> Customer Service</a>
-          <a href= "/"> FAQS</a>
+          <a href= "/support"> Chat Support</a>
+          <a href= "/support"> Customer Service</a>
+          <a href= "/support"> FAQS</a>
         </div>
       </div>
     </div>
