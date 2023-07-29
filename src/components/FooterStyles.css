@@ -1,8 +1,8 @@
 /* Style your components */
 .footer{
     padding: 4rem 6rem;
-    background: rgb(16, 77, 146);
-    color: #fff;
+    background: #7cd4e7;
+    color: #000000;
 }
 
 .top{
@@ -15,7 +15,7 @@
 }
 
 .top i {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     margin-left: 1rem;
 
@@ -48,7 +48,7 @@
 
 .bottom a {
     text-decoration: none;
-    color: #fafafa;
+    color: #000000;
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
 }

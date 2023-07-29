@@ -13,6 +13,12 @@ export const MenuItems = [
     icon : "fa-solid fa-circle-info"
   },
   {
+    title : "Directions",
+    url : "/direction",
+    cName : "nav-links",
+    icon : "fas fa-directions"
+  },
+  {
     title : "Services",
     url : "/service",
     cName : "nav-links",

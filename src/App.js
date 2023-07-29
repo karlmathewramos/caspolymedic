@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Service from "./routes/Service";
 import Support from "./routes/Support";
 import Navbar from "./components/Navbar";
+import Direction from "./routes/Direction";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path = "/" element = {<Home/>}/>
         <Route path = "/about" element = {<About/>}/>
         <Route path = "/service" element = {<Service/>}/>
+        <Route path = "/direction" element = {<Direction/>}/>
         <Route path = "/support" element = {<Support/>}/>
       </Routes>
       

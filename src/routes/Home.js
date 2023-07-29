@@ -9,7 +9,7 @@ function Home() {
     <Hero
     cName= "hero"
     heroImg = {Doctor}
-    title= "The best clinic and pharamacy in AlangAlang,Leyte"
+    title= "The best clinic and pharmacy in Leyte"
     buttonText="Schedule an Appointment"
     url = "/"
     btnClass= "show"
