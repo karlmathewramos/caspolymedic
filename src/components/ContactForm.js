@@ -2,9 +2,8 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import "./ContactFormStyles.css";
-import { DateTimePicker, DatePickerInput,TimeInput } from '@mantine/dates';
-import { useForm, isNotEmpty, isEmail, isInRange, hasLength, matches } from '@mantine/form';
-import { Button, Group, TextInput, NumberInput, Box } from '@mantine/core';
+import { DateTimePicker } from '@mantine/dates';
+
 
 // npm i @emailjs/browser
 
