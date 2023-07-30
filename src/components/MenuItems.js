@@ -25,7 +25,7 @@ export const MenuItems = [
     icon : "fa-solid fa-stethoscope"
   },
   {
-    title : "Support",
+    title : "Contact Us",
     url : "/support",
     cName : "nav-links",
     icon : "fa-solid fa-phone"

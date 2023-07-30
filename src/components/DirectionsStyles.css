@@ -24,12 +24,15 @@
   
   .map-column {
     flex: 1; /* Take full width on small screens */
+    max-width: 100%; /* Ensure the map doesn't overflow the container */
+    overflow: hidden;
   }
   
   /* Media query for screens wider than 600px */
   @media (min-width: 600px) {
     .map-with-text-container {
       flex-direction: row; /* On wider screens, display the columns horizontally again */
+      
     }
   
     .text-column {
