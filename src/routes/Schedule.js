@@ -18,7 +18,7 @@ function Schedule() {
     />
     
     <ContactForm/>
-   
+    
     <Footer/>
     </>
   );

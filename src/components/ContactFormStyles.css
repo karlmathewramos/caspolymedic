@@ -2,7 +2,6 @@
 .from-container{
     margin: 4rem 6rem;
     color: #2a2a2a;
-    
 }
 
 
@@ -21,8 +20,6 @@
     border-radius: .3rem;
     border: 1px solid #2a2a2a;
 }
-
-
 
 .from-container textarea{
     padding: 1rem;

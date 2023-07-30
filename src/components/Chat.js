@@ -7,7 +7,7 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 
  //reference : https://www.youtube.com/watch?v=Lag9Pj_33hM
 // my key to connect with chatgpt
-const API_KEY = "";
+const API_KEY = "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";
 
 
 // role: user --> message from user
