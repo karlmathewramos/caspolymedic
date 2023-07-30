@@ -36,16 +36,7 @@ const ContactForm = () => {
     <div className= "from-container">
       <form ref={form} onSubmit={sendEmail}>
         <h1>Fill out the form below!</h1>
-        
-        <DateTimePicker
-        clearable
-        placeholder="Date and Time"
-        gap="1rem"
-        name= "Date_time"
-        size="md"
-        valueFormat="MMM DD YYYY hh:mm A"
-        c="blue.6"
-        />
+
         <input placeholder="Name" type="text" name="user_name"  style={{ marginTop: '2rem' }}/>
         
         
