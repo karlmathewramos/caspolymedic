@@ -1,8 +1,8 @@
 export const MenuItems = [
   // Make a list of Navlinks & their properties.
   {
-    title : "Home",
-    url : "/",
+    title : "Schedule an Appointment",
+    url : "/schedule",
     cName : "nav-links",
     icon : "fa-solid fa-house"
   },
@@ -25,7 +25,7 @@ export const MenuItems = [
     icon : "fa-solid fa-stethoscope"
   },
   {
-    title : "Contact Us",
+    title : "Support",
     url : "/support",
     cName : "nav-links",
     icon : "fa-solid fa-phone"

@@ -10,9 +10,9 @@ function Home() {
     cName= "hero"
     heroImg = {Doctor}
     title= "The best clinic and pharmacy in Leyte"
-    buttonText="Schedule an Appointment"
+    
     url = "/"
-    btnClass= "show"
+    btnClass= "hide"
     />
     <Footer/>
     </>

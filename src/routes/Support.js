@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Chat from "../components/Chat";
 import ContactForm from "../components/ContactForm";
 import SUP from "../assets/support.jpg";
 function Support() {
@@ -15,7 +16,9 @@ function Support() {
     url = "/"
     btnClass="hide"
     />
-    <ContactForm/>
+    <Chat/>
+    
+    
     <Footer/>
     </>
   );

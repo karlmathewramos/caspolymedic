@@ -33,7 +33,7 @@ const ContactForm = () => {
   return (
     <div className= "from-container">
       <form ref={form} onSubmit={sendEmail}>
-        <h1>Send a message to us!</h1>
+        <h1>Fill out the form below!</h1>
         <input placeholder="Name" type="text" name="user_name" />
         <input placeholder="Email" type="email" name="user_email" />
         <textarea name="message" placeholder="Message" />

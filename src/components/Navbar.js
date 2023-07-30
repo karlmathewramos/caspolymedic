@@ -14,7 +14,12 @@ class Navbar extends Component {
     return (
       <nav className="NavbarItems">
         {/* the logo on the top left */}
-        <h1 className= "navbar-logo"><i class="fa-solid fa-square-plus"></i> C.A.S Polymedic</h1>
+        <Link to="/" style={{ textDecoration: 'none' }}>
+        <h1 className="navbar-logo">
+          <i className="fa-solid fa-square-plus"></i> C.A.S Polymedic
+        </h1>
+       </Link>
+        
 
         {/* to show hamburger icon when reducing window size or be in mobile*/}
         <div className = "menu-icons" onClick={this.handleClick}>

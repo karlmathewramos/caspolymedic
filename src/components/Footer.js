@@ -39,7 +39,7 @@ const Footer = () => {
           <h4>Support</h4>
           <a href= "/support"> Chat Support</a>
           <a href= "/support"> Customer Service</a>
-          <a href= "/support"> FAQS</a>
+          <a href= "/support"> FAQs</a>
         </div>
       </div>
     </div>
