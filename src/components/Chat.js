@@ -106,6 +106,7 @@ function Chat() {
         <p>123-456-7890</p>
         <h2>Chat Support </h2>
         <p>As you can see on your right, you can chat with our chat support representative Joe with any questions you have regarding CAS Polymedic.
+          It is actually a CHATGPT Bot but it cannot be used publicly 
          
         </p>
         
