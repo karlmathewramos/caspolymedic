@@ -1,3 +1,4 @@
+import "./ChatStyles.css";
 import { useState } from 'react'
 import theavatar from "../assets/gamer.png";
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
@@ -99,8 +100,19 @@ function Chat() {
 
       // the UI
       return (
-        <div className="App">
-          <div style={{height: "500px", }}>
+    <div className="chat-with-text-container">
+      <div className="text-column">
+        <h2>Contact </h2>
+        <p>123-456-7890</p>
+        <h2>Chat Support </h2>
+        <p>As you can see on your right, you can chat with our chat support representative Joe with any questions you have regarding CAS Polymedic.
+         
+        </p>
+        
+        
+      </div>
+      <div className="map-column">
+      <div style={{height: "500px" }}>
             <ChatContainer>
                 <ConversationHeader>
                     <Avatar src={theavatar} name={"Joe"} />
@@ -125,7 +137,9 @@ function Chat() {
 
             </ChatContainer>
           </div>
-        </div>
+      </div>
+      
+    </div>
       )
 }
 

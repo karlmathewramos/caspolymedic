@@ -1,0 +1,46 @@
+.chat-with-text-container {
+    display: flex;
+    flex-direction: column; /* On small screens, display the columns vertically */
+  }
+  
+  .text-column {
+    padding: 40px;
+    text-align:justify;
+    
+  }
+
+  .text-column h2{
+    padding-bottom: 1rem;
+  }
+
+  .text-column img {
+    max-width: 100%; /* Make the image responsive and fit within the column */
+    height: 350px;
+  }
+
+  .text-column p{
+    padding-bottom: 1rem;
+  }
+  
+  .map-column {
+    flex: 1; /* Take full width on small screens */
+    max-width: 100%; /* Ensure the map doesn't overflow the container */
+    overflow: hidden;
+  }
+  
+  /* Media query for screens wider than 600px */
+  @media (min-width: 600px) {
+    .chat-with-text-container {
+      flex-direction: row; /* On wider screens, display the columns horizontally again */
+      
+    }
+  
+    .text-column {
+      flex: 1; /* Take one-third of the width on wider screens */
+    }
+  
+    .map-column {
+      flex: 2; /* Take two-thirds of the width on wider screens */
+    }
+  }
+  
