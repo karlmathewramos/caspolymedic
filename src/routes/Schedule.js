@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Chat from "../components/Chat";
 import ContactForm from "../components/ContactForm";
 import DOC from "../assets/doc.png";
+import Appointment from "../components/Appointment";
 function Schedule() {
   return (
     <>
@@ -18,7 +19,7 @@ function Schedule() {
     />
     
     <ContactForm/>
-    
+   
     <Footer/>
     </>
   );

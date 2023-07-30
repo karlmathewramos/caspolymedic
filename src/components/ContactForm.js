@@ -2,6 +2,9 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import "./ContactFormStyles.css";
+import { DateTimePicker, DatePickerInput,TimeInput } from '@mantine/dates';
+import { useForm, isNotEmpty, isEmail, isInRange, hasLength, matches } from '@mantine/form';
+import { Button, Group, TextInput, NumberInput, Box } from '@mantine/core';
 
 // npm i @emailjs/browser
 
@@ -34,10 +37,25 @@ const ContactForm = () => {
     <div className= "from-container">
       <form ref={form} onSubmit={sendEmail}>
         <h1>Fill out the form below!</h1>
-        <input placeholder="Name" type="text" name="user_name" />
+        
+        <DateTimePicker
+        clearable
+        placeholder="Date and Time"
+        gap="1rem"
+        name= "Date_time"
+        size="md"
+        valueFormat="MMM DD YYYY hh:mm A"
+        c="blue.6"
+        />
+        <input placeholder="Name" type="text" name="user_name"  style={{ marginTop: '2rem' }}/>
+        
+        
         <input placeholder="Email" type="email" name="user_email" />
+        
+       
         <textarea name="message" placeholder="Message" />
         <input type="submit" value="Send" />
+        
       </form>
     </div>
   );
