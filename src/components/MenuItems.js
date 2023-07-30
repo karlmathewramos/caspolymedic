@@ -4,7 +4,7 @@ export const MenuItems = [
     title : "Schedule an Appointment",
     url : "/schedule",
     cName : "nav-links",
-    icon : "fa-solid fa-house"
+    icon : "fa-solid fa-calendar-check"
   },
   {
     title : "About",
